@@ -1,0 +1,17 @@
+{
+"RosbagManager":{
+	"Mode": "PS",
+	"ModeParameter": "CAM_BACK_LEFT",
+	"Bag": "/home/kpit/Dataset/Bag/Delaycontrol/Test_5.bag",
+	"Window": 0.5,
+	"Delay": 1.5,
+        "RosbagTopic":["LIDAR_TOP","LIDAR","CAM_FRONT","CAM_BACK_LEFT","CAM_BACK_RIGHT"],
+        "Topics":[
+		{"cam_topic":"/cam"},
+                {"lid_topic":"/lid"}]
+},
+
+"OutputManager":{	
+        "Topics":[{"cam_topic":"/cam_rviz"},{"lid_topic":"/lid_rviz"}]
+}
+}
